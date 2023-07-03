@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "KiafS4FOObgJUrXkHo1s7VNgmdiB785szk7/Zw8PYesu8HzEt12bgujuPHgJrgPyFEy4p2jS4lx3lgl5UVRZAA==",
+  "success": true,
+  "projectFilePath": "C:\\C#\\Xamarin\\TikTakToe\\TikTakToe\\TikTakToe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mayco\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mayco\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\mayco\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\mayco\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\mayco\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\mayco\\.nuget\\packages\\xamarin.forms.fontawesome.regular\\1.0.0\\xamarin.forms.fontawesome.regular.1.0.0.nupkg.sha512",
+    "C:\\Users\\mayco\\.nuget\\packages\\xamarin.forms.fontawesome.solid\\1.0.0\\xamarin.forms.fontawesome.solid.1.0.0.nupkg.sha512",
+    "C:\\Users\\mayco\\.nuget\\packages\\xamarin.forms.iconfonthelper\\1.0.0\\xamarin.forms.iconfonthelper.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+C:\C#\Xamarin\TikTakToe\TikTakToe\bin\Debug\netstandard2.0\TikTakToe.deps.json
+C:\C#\Xamarin\TikTakToe\TikTakToe\bin\Debug\netstandard2.0\TikTakToe.dll
+C:\C#\Xamarin\TikTakToe\TikTakToe\bin\Debug\netstandard2.0\TikTakToe.pdb
+C:\C#\Xamarin\TikTakToe\TikTakToe\obj\Debug\netstandard2.0\TikTakToe.csproj.AssemblyReference.cache
+C:\C#\Xamarin\TikTakToe\TikTakToe\obj\Debug\netstandard2.0\TikTakToe.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Xamarin\TikTakToe\TikTakToe\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\C#\Xamarin\TikTakToe\TikTakToe\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\C#\Xamarin\TikTakToe\TikTakToe\obj\Debug\netstandard2.0\TikTakToe.AssemblyInfoInputs.cache
+C:\C#\Xamarin\TikTakToe\TikTakToe\obj\Debug\netstandard2.0\TikTakToe.AssemblyInfo.cs
+C:\C#\Xamarin\TikTakToe\TikTakToe\obj\Debug\netstandard2.0\TikTakToe.csproj.CoreCompileInputs.cache
+C:\C#\Xamarin\TikTakToe\TikTakToe\obj\Debug\netstandard2.0\XamlC.stamp
+C:\C#\Xamarin\TikTakToe\TikTakToe\obj\Debug\netstandard2.0\TikTakToe.dll
+C:\C#\Xamarin\TikTakToe\TikTakToe\obj\Debug\netstandard2.0\refint\TikTakToe.dll
+C:\C#\Xamarin\TikTakToe\TikTakToe\obj\Debug\netstandard2.0\TikTakToe.pdb
+C:\C#\Xamarin\TikTakToe\TikTakToe\obj\Debug\netstandard2.0\ref\TikTakToe.dll
+C:\C#\Xamarin\TikTakToe\TikTakToe\obj\Debug\netstandard2.0\Views\Inicio.xaml.g.cs

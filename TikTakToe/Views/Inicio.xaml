@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TikTakToe.Views.Inicio"
+             BackgroundColor="White">
+    <Grid>
+        <StackLayout BackgroundColor="#002147">
+            <StackLayout VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand">
+                <Label Text="{Binding TextTurno}"
+                       TextColor="White"
+                       FontSize="20" />
+                <Grid RowDefinitions="100,100,100"
+                      ColumnDefinitions="100,100,100"
+                      Margin="0,20,0,25">
+                    <Button Text="{Binding Celda1}"
+                            TextColor="Black"
+                            Grid.Column="0"
+                            FontAttributes="Bold"
+                            Grid.Row="0"
+                            Padding="0"
+                            FontSize="70"
+                            BackgroundColor="{Binding ColorCelda1}"
+                            Command="{Binding PlayCommand}"
+                            CommandParameter="1"></Button>
+                    <Button Padding="0"
+                            TextColor="Black"
+                            Text="{Binding Celda2}"
+                            FontSize="70"
+                            BackgroundColor="{Binding ColorCelda2}"
+                            FontAttributes="Bold"
+                            Grid.Column="1"
+                            Grid.Row="0"
+                            Command="{Binding PlayCommand}"
+                            CommandParameter="2"></Button>
+                    <Button Text="{Binding Celda3}"
+                            FontSize="70"
+                            FontAttributes="Bold"
+                            TextColor="Black"
+                            BackgroundColor="{Binding ColorCelda3}"
+                            Padding="0"
+                            Grid.Column="2"
+                            Grid.Row="0"
+                            Command="{Binding PlayCommand}"
+                            CommandParameter="3"></Button>
+                    <Button Text="{Binding Celda4}"
+                            TextColor="Black"
+                            FontSize="70"
+                            FontAttributes="Bold"
+                            BackgroundColor="{Binding ColorCelda4}"
+                            Padding="0"
+                            Grid.Column="0"
+                            Grid.Row="1"
+                            Command="{Binding PlayCommand}"
+                            CommandParameter="4"></Button>
+                    <Button Text="{Binding Celda5}"
+                            TextColor="Black"
+                            FontSize="70"
+                            FontAttributes="Bold"
+                            BackgroundColor="{Binding ColorCelda5}"
+                            Padding="0"
+                            Grid.Column="1"
+                            Grid.Row="1"
+                            Command="{Binding PlayCommand}"
+                            CommandParameter="5"></Button>
+                    <Button Text="{Binding Celda6}"
+                            TextColor="Black"
+                            FontAttributes="Bold"
+                            FontSize="70"
+                            BackgroundColor="{Binding ColorCelda6}"
+                            Padding="0"
+                            Grid.Column="2"
+                            Grid.Row="1"
+                            Command="{Binding PlayCommand}"
+                            CommandParameter="6"></Button>
+                    <Button Padding="0"
+                            BackgroundColor="{Binding ColorCelda7}"
+                            Text="{Binding Celda7}"
+                            FontAttributes="Bold"
+                            TextColor="Black"
+                            FontSize="70"
+                            Grid.Column="0"
+                            Grid.Row="2"
+                            Command="{Binding PlayCommand}"
+                            CommandParameter="7"></Button>
+                    <Button Text="{Binding Celda8}"
+                            TextColor="Black"
+                            FontAttributes="Bold"
+                            FontSize="70"
+                            BackgroundColor="{Binding ColorCelda8}"
+                            Padding="0"
+                            Grid.Column="1"
+                            Grid.Row="2"
+                            Command="{Binding PlayCommand}"
+                            CommandParameter="8"></Button>
+                    <Button Padding="0"
+                            FontAttributes="Bold"
+                            TextColor="Black"
+                            BackgroundColor="{Binding ColorCelda9}"
+                            Text="{Binding Celda9}"
+                            FontSize="70"
+                            Grid.Column="2"
+                            Grid.Row="2"
+                            Command="{Binding PlayCommand}"
+                            CommandParameter="9"></Button>
+                </Grid>
+                <Button Text="Reiniciar"
+                        HorizontalOptions="CenterAndExpand"
+                        BackgroundColor="#FFD700"
+                        TextColor="Black"
+                        Command="{Binding ReiniciarCommand}"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout BackgroundColor="#99403333"
+                     IsVisible="{Binding IsBusy}">
+            <Frame HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   CornerRadius="5"
+                   HasShadow="False"
+                   BackgroundColor="#0077D9">
+                <StackLayout>
+                    <StackLayout Spacing="0"
+                                 Margin="0,0,0,10">
+                        <Label Text="Nombre del Jugador 1"
+                               TextColor="White"
+                               FontSize="18" />
+                        <Entry Text="{Binding NamePlayer1}"/>
+                    </StackLayout>
+                    <StackLayout Spacing="0">
+                        <Label Text="Nombre del Jugador 2"
+                               TextColor="White"
+                               FontSize="17" />
+                        <Entry Text="{Binding NamePlayer2}"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="¿Quién empieza?"
+                               TextColor="White"
+                               FontSize="17" />
+                        <StackLayout Orientation="Horizontal"
+                                     Spacing="0">
+                            <CheckBox IsChecked="{Binding TurnPlayer1}"/>
+                            <Label Text="Jugador 1"
+                                   TextColor="White"
+                                   FontSize="17"
+                                   VerticalOptions="Center"
+                                   Margin="0,0,15,0" />
+                            <CheckBox IsChecked="{Binding TurnPlayer2}"/>
+                            <Label Text="Jugador 2"
+                                   TextColor="White"
+                                   FontSize="17"
+                                   VerticalOptions="Center" />
+                        </StackLayout>
+                    </StackLayout>
+                    <Button Text="Empezar"
+                            BackgroundColor="#FFA500"
+                            TextColor="White"
+                            Margin="0,20,0,0"
+                            CornerRadius="10"
+                            Command="{Binding CerrarCommand}"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </Grid>
+</ContentPage>
